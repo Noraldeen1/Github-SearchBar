@@ -1,9 +1,4 @@
 body {
-/* background: #601787;
-background: -webkit-linear-gradient(bottom left, #601787, #8763F8);
-background: -moz-linear-gradient(bottom left, #601787, #8763F8);
-background: linear-gradient(to top right, #601787, #8763F8); */
-
 background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -71,4 +66,20 @@ h1{
 
 .Noor{
   color: black;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(228, 8%, 76%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(228, 8%, 54%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(228, 8%, 64%);
+  border-radius: .5rem;
 }
