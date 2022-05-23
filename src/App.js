@@ -58,6 +58,9 @@ function App() {
   return(
     <div className= "container">
       <div className='navbar'><i class='bx bxl-github' size='sm'></i>Github</div>
+      <h1>
+        Display any Github user's informations using Github's API
+      </h1>
       <div className='search-bar'>
         <Form onSubmit={handleSubmit}>
           <Form.Group>
@@ -100,8 +103,15 @@ function App() {
           </Card>
         </div>
       )}
-
-      
+            <div class="footer__info-container">
+                <span class="footer__copy">
+                    &#169; Demo Website Created By <span class="Noor">Noraldeen Aljabari</span>. All rights reserved
+                </span>
+                <div class="footer__privacy">
+                    <div href="#">Terms & Agreements</div>
+                    <div href="#">Privacy Policy</div>
+                </div>
+            </div>
     </div>
   )
 
